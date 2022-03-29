@@ -1,7 +1,12 @@
-" Tomorrow Night Blue - Full Colour and 256 Colour
-" http://chriskempson.com
+" Tomorrow-Night-Seablue
 "
-" Hex colour conversion functions borrowed from the theme "Desert256""
+" Author: James Cherti
+" Website: https://www.jamescherti.com/
+" GitHub: https://github.com/jamescherti
+"
+" Based on Tomorrow Night Blue - Full Colour and 256 Colour
+" http://chriskempson.com . Hex colour conversion functions borrowed from the
+" theme "Desert256""
 
 " Default GUI Colours
 let s:foreground = 'ffffff'
@@ -30,7 +35,7 @@ let s:linenr_foreground = 'AAAAAA'
 
 hi clear
 syntax reset
-let g:colors_name = "Tomorrow-Night-Blue"
+let g:colors_name = "Tomorrow-Night-Seablue"
 
 if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " Returns an approximate grey index for the given grey level
@@ -270,7 +275,6 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     call <SID>X("SignColumn", "", s:background, "none")
   end
   if version >= 703
-    " call <SID>X("ColorColumn", "", s:line, "none")
     call <SID>X("ColorColumn", "", s:linenr_background, "none")
   end
 
