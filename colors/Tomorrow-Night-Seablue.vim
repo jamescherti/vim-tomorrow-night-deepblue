@@ -5,9 +5,14 @@
 
 " Default GUI Colours
 let s:foreground = 'ffffff'
-let s:background = '002451'
+" let s:background = '002451'
+" let s:background = '00005f'
+let s:background = '00006f'
+" let s:background = '00007f'
+
 let s:selection = '003f8e'
-let s:line = '00346e'
+"let s:line = '00346e'
+let s:line = '00008a'
 let s:comment = '7285b7'
 let s:red = 'ff9da4'
 let s:orange = 'ffc58f'
@@ -19,9 +24,12 @@ let s:purple = 'ebbbff'
 let s:window = '4d5057'
 
 set background=dark
+
+let s:linenr_background = '00005f'
+let s:linenr_foreground = 'AAAAAA'
+
 hi clear
 syntax reset
-
 let g:colors_name = "Tomorrow-Night-Blue"
 
 if has('gui_running') || &t_Co == 88 || &t_Co == 256
@@ -234,11 +242,14 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
   " Vim Highlighting
   call <SID>X("Normal", s:foreground, s:background, "")
-  call <SID>X("LineNr", s:selection, "", "")
+  call <SID>X("LineNr", s:linenr_foreground, s:linenr_background, "")
   call <SID>X("NonText", s:selection, "", "")
   call <SID>X("SpecialKey", s:selection, "", "")
   call <SID>X("Search", s:background, s:yellow, "")
-  call <SID>X("TabLine", s:foreground, s:background, "reverse")
+  call <SID>X("TabLine", s:window, s:foreground, "reverse")
+  call <SID>X("TabLineFill", s:window, s:foreground, "reverse")
+  call <SID>X("TabLine", s:window, s:foreground, "reverse")
+  call <SID>X("TabLineFill", s:window, s:foreground, "reverse")
   call <SID>X("StatusLine", s:window, s:yellow, "reverse")
   call <SID>X("StatusLineNC", s:window, s:foreground, "reverse")
   call <SID>X("VertSplit", s:window, s:window, "none")
@@ -249,17 +260,18 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <SID>X("Question", s:green, "", "")
   call <SID>X("WarningMsg", s:red, "", "")
   call <SID>X("MatchParen", "", s:selection, "")
-  call <SID>X("Folded", s:comment, s:background, "")
+  call <SID>X("Folded", s:comment, s:linenr_background, "")
   call <SID>X("FoldColumn", "", s:background, "")
   if version >= 700
-    call <SID>X("CursorLine", "", s:line, "none")
-    call <SID>X("CursorColumn", "", s:line, "none")
+    call <SID>X("CursorLine", "", s:linenr_background, "none")
+    call <SID>X("CursorColumn", "", s:linenr_background, "none")
     call <SID>X("PMenu", s:foreground, s:selection, "none")
     call <SID>X("PMenuSel", s:foreground, s:selection, "reverse")
     call <SID>X("SignColumn", "", s:background, "none")
   end
   if version >= 703
-    call <SID>X("ColorColumn", "", s:line, "none")
+    " call <SID>X("ColorColumn", "", s:line, "none")
+    call <SID>X("ColorColumn", "", s:linenr_background, "none")
   end
 
   " Standard Highlighting
