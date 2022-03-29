@@ -1,22 +1,15 @@
-" Tomorrow-Night-Seablue
-"
+" Name:   tomorrow-night-seablue.vim
 " Author: James Cherti
-" Website: https://www.jamescherti.com/
-" GitHub: https://github.com/jamescherti
+" URL:    https://github.com/jamescherti/vim-tomorrow-night-seablue
 "
-" Based on Tomorrow Night Blue - Full Colour and 256 Colour
+" Based on Tomorrow-Night-Blue - Full Colour and 256 Colour
 " http://chriskempson.com . Hex colour conversion functions borrowed from the
-" theme "Desert256""
+" theme "Desert256".
 
 " Default GUI Colours
 let s:foreground = 'ffffff'
-" let s:background = '002451'
-" let s:background = '00005f'
 let s:background = '00006f'
-" let s:background = '00007f'
-
 let s:selection = '003f8e'
-"let s:line = '00346e'
 let s:line = '00008a'
 let s:comment = '7285b7'
 let s:red = 'ff9da4'
@@ -27,15 +20,14 @@ let s:aqua = '99ffff'
 let s:blue = 'bbdaff'
 let s:purple = 'ebbbff'
 let s:window = '4d5057'
-
-set background=dark
-
 let s:linenr_background = '00005f'
 let s:linenr_foreground = 'AAAAAA'
 
+set background=dark
+
 hi clear
 syntax reset
-let g:colors_name = "Tomorrow-Night-Seablue"
+let g:colors_name = 'tomorrow-night-seablue'
 
 if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " Returns an approximate grey index for the given grey level
