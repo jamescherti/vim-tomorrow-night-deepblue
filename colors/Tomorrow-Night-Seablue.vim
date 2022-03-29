@@ -4,19 +4,19 @@
 " Hex colour conversion functions borrowed from the theme "Desert256""
 
 " Default GUI Colours
-let s:foreground = "ffffff"
-let s:background = "002451"
-let s:selection = "003f8e"
-let s:line = "00346e"
-let s:comment = "7285b7"
-let s:red = "ff9da4"
-let s:orange = "ffc58f"
-let s:yellow = "ffeead"
-let s:green = "d1f1a9"
-let s:aqua = "99ffff"
-let s:blue = "bbdaff"
-let s:purple = "ebbbff"
-let s:window = "4d5057"
+let s:foreground = 'ffffff'
+let s:background = '002451'
+let s:selection = '003f8e'
+let s:line = '00346e'
+let s:comment = '7285b7'
+let s:red = 'ff9da4'
+let s:orange = 'ffc58f'
+let s:yellow = 'ffeead'
+let s:green = 'd1f1a9'
+let s:aqua = '99ffff'
+let s:blue = 'bbdaff'
+let s:purple = 'ebbbff'
+let s:window = '4d5057'
 
 set background=dark
 hi clear
@@ -24,7 +24,7 @@ syntax reset
 
 let g:colors_name = "Tomorrow-Night-Blue"
 
-if has("gui_running") || &t_Co == 88 || &t_Co == 256
+if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " Returns an approximate grey index for the given grey level
   fun <SID>grey_number(x)
     if &t_Co == 88
