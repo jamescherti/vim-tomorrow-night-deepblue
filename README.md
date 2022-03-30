@@ -2,6 +2,8 @@
 
 The Vim color scheme **tomorrow-night-seablue** is a dark Tomorrow Theme with a beautiful blue background.
 
+![](https://raw.githubusercontent.com/jamescherti/vim-tomorrow-night-seablue/master/.screenshot.png)
+
 ## Authors
 
 Author: [James Cherti](https://www.jamescherti.com/)
