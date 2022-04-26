@@ -21,6 +21,7 @@ let s:blue = 'bbdaff'
 let s:purple = 'ebbbff'
 let s:window = '4d5057'
 let s:linenr_background = '00005f'
+let s:cursorline = '082572'
 
 set background=dark
 
@@ -259,14 +260,14 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <SID>X('Folded', s:comment, s:linenr_background, '')
   call <SID>X('FoldColumn', '', s:background, '')
   if v:version >= 700
-    call <SID>X('CursorLine', '', s:linenr_background, 'none')
-    call <SID>X('CursorColumn', '', s:linenr_background, 'none')
+    call <SID>X('CursorLine', '', s:cursorline, 'none')
+    call <SID>X('CursorColumn', '', s:cursorline, 'none')
     call <SID>X('PMenu', s:foreground, s:selection, 'none')
     call <SID>X('PMenuSel', s:foreground, s:selection, 'reverse')
     call <SID>X('SignColumn', '', s:background, 'none')
   end
   if v:version >= 703
-    call <SID>X('ColorColumn', '', s:linenr_background, 'none')
+    call <SID>X('ColorColumn', '', s:cursorline, 'none')
   end
 
   " Standard Highlighting
