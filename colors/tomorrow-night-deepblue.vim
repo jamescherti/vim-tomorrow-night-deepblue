@@ -1,6 +1,6 @@
-" Name:   tomorrow-night-seablue.vim
+" Name:   tomorrow-night-deepblue.vim
 " Author: James Cherti
-" URL:    https://github.com/jamescherti/vim-tomorrow-night-seablue
+" URL:    https://github.com/jamescherti/vim-tomorrow-night-deepblue
 "
 " Based on Tomorrow-Night-Blue - Full Colour and 256 Colour
 " http://chriskempson.com . Hex colour conversion functions borrowed from the
@@ -27,7 +27,7 @@ set background=dark
 
 hi clear
 syntax reset
-let g:colors_name = 'tomorrow-night-seablue'
+let g:colors_name = 'tomorrow-night-deepblue'
 
 if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " Returns an approximate grey index for the given grey level
