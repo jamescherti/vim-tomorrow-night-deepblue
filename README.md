@@ -18,6 +18,8 @@ Maintainers: [James Cherti](https://www.jamescherti.com/)
 
 The tomorrow-night-deepblue color scheme is based on Tomorrow Night Blue by Chris Kempson.
 
+## Installation
+
 ### Installation with Vim's built-in package manager (Vim 8 and above)
 
 ```bash
