@@ -37,3 +37,4 @@ vim -u NONE -c "helptags vim-tomorrow-night-deepblue/doc" -c q
 
 ## Links
 - Git repository: [jamescherti/tomorrow-night-deepblue](https://github.com/jamescherti/vim-tomorrow-night-deepblue)
+- There is also an Emacs version of this theme: [Emacs Theme: Tomorrow Night Deepblue](https://github.com/jamescherti/emacs-tomorrow-night-deepblue-theme)
