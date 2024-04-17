@@ -37,4 +37,5 @@ vim -u NONE -c "helptags vim-tomorrow-night-deepblue/doc" -c q
 
 ## Links
 - Git repository: [jamescherti/tomorrow-night-deepblue](https://github.com/jamescherti/vim-tomorrow-night-deepblue)
-- There is also an Emacs version of this theme: [Emacs Theme: Tomorrow Night Deepblue](https://github.com/jamescherti/emacs-tomorrow-night-deepblue-theme)
+- [Announcement in James Cherti's website about this Vim color scheme](https://www.jamescherti.com/vim-tomorrow-night-seablue-theme-color-scheme/)
+- There is also an Emacs version of this theme: [Emacs Theme: Tomorrow Night Deepblue](https://www.jamescherti.com/emacs-tomorrow-night-deepblue-theme-a-refreshing-color-scheme-with-a-deep-blue-background/)
