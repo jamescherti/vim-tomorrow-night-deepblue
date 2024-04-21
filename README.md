@@ -1,13 +1,8 @@
 # tomorrow-night-deepblue (Vim color scheme)
 
-The Vim color scheme **Tomorrow Night Deepblue** is a beautiful deep blue variant of the
-Tomorrow Night color scheme, which is renowned for its elegant color palette that is
-pleasing to the eyes (The colorscheme was previously called tomorrow-night-seablue).
+The Vim color scheme **Tomorrow Night Deepblue** is a beautiful deep blue variant of the Tomorrow Night color scheme, which is renowned for its elegant color palette that is pleasing to the eyes (The colorscheme was previously called tomorrow-night-seablue).
 
-The **Tomorrow Night Deepblue** colorscheme features a deep blue background color that
-creates a calming atmosphere. The contrasting colors make it easy to distinguish between
-different elements of your code. The tomorrow-night-deepblue colorscheme is also a great
-choice for programmer who miss the blue themes that were trendy a few years ago.
+The **Tomorrow Night Deepblue** colorscheme features a deep blue background color that creates a calming atmosphere. The contrasting colors make it easy to distinguish between different elements of your code. The tomorrow-night-deepblue colorscheme is also a great choice for programmer who miss the blue themes that were trendy a few years ago.
 
 ![](https://raw.githubusercontent.com/jamescherti/vim-tomorrow-night-deepblue/master/.screenshot.png)
 
