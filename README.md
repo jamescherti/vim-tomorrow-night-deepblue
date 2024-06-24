@@ -1,4 +1,4 @@
-# tomorrow-night-deepblue (Vim color scheme)
+# tomorrow-night-deepblue (Vim and Neovim color scheme)
 
 The Vim color scheme **Tomorrow Night Deepblue** is a beautiful deep blue variant of the Tomorrow Night color scheme, which is renowned for its elegant color palette that is pleasing to the eyes (The colorscheme was previously called tomorrow-night-seablue).
 
@@ -15,13 +15,22 @@ The tomorrow-night-deepblue color scheme is based on Tomorrow Night Blue by Chri
 
 ## Installation
 
-### Installation with Vim's built-in package manager (Vim 8 and above)
+### Vim
+
+#### Installation with Vim's built-in package manager (Vim 8 and above)
 
 ```bash
 mkdir -p ~/.vim/pack/jamescherti/start
 cd ~/.vim/pack/jamescherti/start
 git clone --depth 1 https://github.com/jamescherti/vim-tomorrow-night-deepblue
 vim -u NONE -c "helptags vim-tomorrow-night-deepblue/doc" -c q
+```
+
+### Neovim
+
+The theme is also compatible with Neovim. The Tomorrow Night Deepblue colorscheme can be installed in Neovim with this one-liner:
+```
+mkdir -p ~/.config/nvim/colors &&  cd ~/.config/nvim/colors && curl -o tomorrow-night-deepblue.vim https://raw.githubusercontent.com/jamescherti/vim-tomorrow-night-deepblue/master/colors/tomorrow-night-deepblue.vim
 ```
 
 ## Activate the color scheme
