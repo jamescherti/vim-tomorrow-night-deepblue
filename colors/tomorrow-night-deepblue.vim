@@ -20,7 +20,7 @@ let s:aqua = '99ffff'
 let s:blue = 'bbdaff'
 let s:purple = 'ebbbff'
 let s:window = '4d5057'
-let s:linenr_background = '00005f'
+let s:darker_background = '00005f'
 let s:cursorline = '082572'
 
 set background=dark
@@ -239,7 +239,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
   " Vim Highlighting
   call <SID>X('Normal', s:foreground, s:background, '')
-  call <SID>X('LineNr', s:comment, s:linenr_background, '')
+  call <SID>X('LineNr', s:comment, s:background, '')
   call <SID>X('NonText', s:selection, '', '')
   call <SID>X('SpecialKey', s:selection, '', '')
   call <SID>X('Search', s:background, s:yellow, '')
@@ -257,7 +257,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <SID>X('Question', s:green, '', '')
   call <SID>X('WarningMsg', s:red, '', '')
   call <SID>X('MatchParen', '', s:selection, '')
-  call <SID>X('Folded', s:comment, s:linenr_background, '')
+  call <SID>X('Folded', s:comment, s:darker_background, '')
   call <SID>X('FoldColumn', '', s:background, '')
   if v:version >= 700
     call <SID>X('CursorLine', '', s:cursorline, 'none')
