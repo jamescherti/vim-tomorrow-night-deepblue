@@ -1,4 +1,5 @@
 # tomorrow-night-deepblue (Vim and Neovim color scheme)
+![License](https://img.shields.io/github/license/jamescherti/vim-tomorrow-night-deepblue)
 
 The Vim color scheme **Tomorrow Night Deepblue** is a beautiful deep blue variant of the Tomorrow Night color scheme, which is renowned for its elegant color palette that is pleasing to the eyes (The colorscheme was previously called tomorrow-night-seablue).
 
