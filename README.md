@@ -31,7 +31,7 @@ vim -u NONE -c "helptags vim-tomorrow-night-deepblue/doc" -c q
 
 The theme is also compatible with Neovim. The Tomorrow Night Deepblue colorscheme can be installed in Neovim with this one-liner:
 ```
-mkdir -p ~/.config/nvim/colors &&  cd ~/.config/nvim/colors && curl -o tomorrow-night-deepblue.vim https://raw.githubusercontent.com/jamescherti/vim-tomorrow-night-deepblue/master/colors/tomorrow-night-deepblue.vim
+mkdir -p ~/.config/nvim/colors && cd ~/.config/nvim/colors && curl -o tomorrow-night-deepblue.vim https://raw.githubusercontent.com/jamescherti/vim-tomorrow-night-deepblue/master/colors/tomorrow-night-deepblue.vim
 ```
 
 ## Activate the color scheme
