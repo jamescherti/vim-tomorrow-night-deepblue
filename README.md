@@ -9,9 +9,11 @@ The **Tomorrow Night Deepblue** colorscheme features a deep blue background colo
 
 ## Authors
 
-Maintainers: [James Cherti](https://www.jamescherti.com/)
+Authors:
+- [James Cherti](https://www.jamescherti.com/)
+- Chris Kempson
 
-The tomorrow-night-deepblue color scheme is based on Tomorrow Night Blue by Chris Kempson.
+(The tomorrow-night-deepblue color scheme is based on Tomorrow Night Blue by Chris Kempson.)
 
 ## Installation
 
