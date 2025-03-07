@@ -9,7 +9,6 @@ The **Tomorrow Night Deepblue** colorscheme features a deep blue background colo
 
 ## Authors
 
-Authors:
 - [James Cherti](https://www.jamescherti.com/)
 - Chris Kempson
 
